@@ -111,9 +111,7 @@ section {
         display: none;
     }
     .usua {
-        margin: 18px 10px;
-        width: 30px;
-        height: 30px;
+        display: none;
     }
 }
 
@@ -123,11 +121,10 @@ section {
         display: none;
     }
     .usua {
-        margin: 18px 10px;
-        width: 30px;
-        height: 30px;
+        display: none;
     }
 }
+
 
 
   
