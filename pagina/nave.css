@@ -115,7 +115,7 @@ section {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 350px) {
     .nav-menu,
     .buscador {
         display: none;
