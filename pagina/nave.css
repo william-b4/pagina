@@ -99,7 +99,7 @@ section {
     padding: 20px;
 }
 
-/* Media Queries */
+
 @media screen and (max-width: 768px) {
     .nav-menu {
         margin-right: 10px;
