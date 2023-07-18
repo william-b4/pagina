@@ -107,23 +107,24 @@ section {
     .logo {
         margin: 0;
     }
-    .buscador {
+    .header .buscador {
         display: none;
     }
-    .usua {
+    .header .usua {
         display: none;
     }
 }
 
-@media screen and (max-width: 350px) {
-    .nav-menu,
-    .buscador {
+@media screen and (max-width: 600px) {
+    .header .nav-menu,
+    .header .buscador {
         display: none;
     }
-    .usua {
+    .header .usua {
         display: none;
     }
 }
+
 
 
 
