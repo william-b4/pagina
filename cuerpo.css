@@ -1,0 +1,63 @@
+ /*cuerpo.css*/
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+*{ margin: 0;
+    box-sizing: border-box;
+    font-style:italic;
+}
+
+.primero{
+     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(148,148,148,1) 100%);
+}
+.presentacion{
+    width: 100%;    
+    height: 340px;
+
+    z-index: 0;
+    background-image: url(https://cdn.discordapp.com/attachments/1116412560577663170/1130585163634577448/ChainsawMan_Power_Denji_Rooftop-1024x576_preview_rev_1.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 50%;
+}
+
+.titulo{
+    margin:0, 35%;
+}
+.posttitulo{
+    margin: 240px ;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+}
+
+.parte{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    
+}
+
+div > img {
+    margin: 3%;
+    width: 230px;
+    height: 330px;
+    box-shadow: 0 0 30px rgb(0, 102, 174);
+    
+}
+
+img{
+    width: 100px;
+    object-fit: cover;
+    opacity:.8 ;
+    transition: .5s ease;
+    flex-grow: 1;
+}
+
+ img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+} 
+
+
+

@@ -1,0 +1,105 @@
+/*nave.css*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background: linear-gradient(172deg, rgba(67,55,74,1) 24%, rgba(0,216,246,1) 91%);
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+   text-decoration: none;
+   color: white;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+}
+
+.nav-menu-link {
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.nav-menu-link:hover {
+    background-color: rgb(172, 5, 169);
+    transition: 0.5s;
+    padding: 11px;
+    border-radius: 25px;
+}
+
+.logo {
+    background-image: url(https://cdn.discordapp.com/attachments/1116412560577663170/1128807785795166309/tope_preview_rev_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin: 0 20px;
+    flex-shrink: 0;
+}
+
+section {
+    text-decoration: none;
+} 
+
+.bus {
+    font-size: 18px;
+}
+.buscador{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.buscador input[type="search"] {
+    width: 200px;
+    height: 10px;
+    padding: 25px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(55, 0, 31);
+    color: rgb(255, 255, 255);
+}
+
+.buscador input[type="search"]::placeholder {
+    color: white;
+}
+
+
+.usua {
+    background-image: url(https://cdn.discordapp.com/attachments/1116412560577663170/1129435159238803506/usuario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    margin: 18px;
+    padding: 20px;
+}
+
+  
+  
