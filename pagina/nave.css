@@ -110,6 +110,11 @@ section {
     .buscador {
         display: none;
     }
+    .usua {
+        margin: 18px 10px;
+        width: 30px;
+        height: 30px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -119,20 +124,8 @@ section {
     }
     .usua {
         margin: 18px 10px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .posttitulo {
-        font-size: 1.5em;
-    }
-    .parte img {
-        width: 150px;
-        height: 220px;
-    }
-    .registro {
-        width: 300px;
-        padding: 0 20px;
+        width: 30px;
+        height: 30px;
     }
 }
 
